@@ -1,0 +1,79 @@
+{
+	"status": "ok",
+	"date": "2016-07-05",
+	"commands": "",
+	"gpg": false,
+	"devices":
+		[
+			{"files":
+				[
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/multirom-20160705-v33b-UNOFFICIAL-custom.zip",
+						"version": "33b",
+						"type": "multirom",
+						"size": 3935250,
+						"md5": "c7f594767caf414dd60d206d2dd38660"
+					},
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/TWRP_multirom_ef63s_20160704-01.img",
+						"version": "mrom20160704-01",
+						"type": "recovery",
+						"size": 16230400,
+						"md5": "effb9c3313518b3850f807851e52335d"
+					},
+					{
+						"extra": {"releases":["stock"]},
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/stock.zip",
+						"version": "stock",
+						"md5": "905f770413b3f06912edd91ee435327f",
+						"type": "kernel",
+						"size": 16816339
+					},
+					{
+						"extra": {"releases":["coloros"]},
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/coloros.zip",
+						"version": "coloros",
+						"md5": "d9fa220593339297f7da88af2475d103",
+						"type": "kernel",
+						"size": 8593307
+					},
+					{
+						"extra": {"releases":["5.0"]},
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/cm12.zip",
+						"version": "5.x",
+						"md5": "5683155a88ae8ddcf6e24d5d93fd2a8e",
+						"type": "kernel",
+						"size": 8593320
+					},
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/uninstall_multirom_TEKCAFE.VN.zip",
+						"version": "1",
+						"type": "uninstaller",
+						"size": 1623808,
+						"md5": "783e48d707637f72d8ecef8ef282e545"
+					}
+				],
+			"changelogs":
+				[
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/changelog_multirom.txt",
+						"name": "MultiROM"
+					},
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/changelog_recovery.txt",
+						"name": "Recovery"
+					}
+			
+				],
+			"name": "ef63s",
+			"ubuntu_touch":
+				{
+					"req_multirom": "",
+					"req_recovery": ""
+				}
+			}
+		]
+	
+}
+
+
